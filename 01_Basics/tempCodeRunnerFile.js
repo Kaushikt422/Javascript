@@ -1,26 +1,8 @@
 
-// stack for (Primitive DataType)
+let myName = "Kaushik"
+let age = 22 
+// console.log("myName"+ age);       //old method
 
-let  MyEmailId  = "kaushikt422@gmail.com"
-let  MyEmailId2 = MyEmailId                   //here the copy comes for variable MyEmailId
-
-MyEmailId2 = "yours.@gmail.com"               // the changes not refelect in the MyEmanilId because we change in the copy .
-
-console.log(MyEmailId)                        // here is the original not change 
-console.log(MyEmailId2)                       // only change in emailid2
-
-
-// Heap for (Non Primitive Data Type)
-
-let userOne =  {
-
-    email: "Kaushikt422@gmail.com",
-    age : 22
-}
-
-let userTwo  = userOne
-
-userTwo.email = "yours@gmail.com"
-
-console.log(userOne,userOne.email)
-console.log(userTwo, userTwo.email)
+console.log(`hello my name is ${myName} and my age is ${age}`)  // here we use place holder this method called string interpolation because of place holder we use methods like myName.toupper
+const gameName = new String ('Kaushik Tiwari')
+console.log(gameName);
